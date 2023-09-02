@@ -848,15 +848,6 @@ body.dark-theme {
   transform: translateX(-3rem);
 }
 
-@media screen and (max-width: 1150px) {
-  .contact__data {
-    margin-right: auto;
-  }
-  .contact__data .section__title-2 {
-    margin: .75rem auto 2rem;
-  }
-}
-
 .contact__description-1 {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -1132,6 +1123,19 @@ body.dark-theme {
   }
   .contact__data .section__title-2 {
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .contact__data {
+    margin-right: auto;
+  }
+  .contact__data .section__title-2 {
+    margin: .75rem auto 2rem;
+  }
+  
+  .home__social {
+    height: 80px; 
   }
 }
 
