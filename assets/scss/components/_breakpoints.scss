@@ -324,7 +324,7 @@
 
    .services{
       &__container{
-         grid-template-columns: repeat(3, 282px);
+         grid-template-columns: repeat(, 282px);
          column-gap: 5rem;
          padding-block: 3rem 5rem;
       }
